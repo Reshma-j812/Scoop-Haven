@@ -1,0 +1,140 @@
+*{
+    color: rgb(245, 240, 240);
+}
+.s1{
+    background-color: #33070b ;
+    text-align: center;
+    padding: 10px;
+    
+}
+.s2{
+    background-image: url(bg8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+    min-height: 250px;
+    
+    
+}
+.a1{
+    background-color: rgb(156, 114, 9);
+    padding: 5px 25px 5px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.s3{
+    background-image: url(ima.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+.trans{
+    min-height: 200px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.559);
+}
+.b{
+    font-family:cursive;
+}
+.i1{
+    border-color: rgb(95, 72, 14);
+    border-style: solid;
+    height: 1px;
+    width: 100px;
+    
+}
+.i2{
+    border-color: rgb(95, 72, 14);
+    border-style: solid;
+    height: 1px;
+    width: 200px;
+}
+.i3{
+    border-color: rgb(95, 72, 14);
+    border-style: solid;
+    height: 1px;
+    width: 100px;
+}
+.i4{
+    border-color: rgb(95, 72, 14);
+    border-style: solid;
+    height: 1px;
+    width: 200px;
+}
+.s4{
+    background-image: url(eeaa34998e0f0df36516b564dd1a2367.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 180px 0px 180px 0px;
+    min-height: 250px;
+}
+.s5{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.FU5NqEnHMbYx-rNPXaEUKgHaEJ&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 180px 0px 180px 0px;
+    min-height: 250px;
+
+}
+.s6{
+    background-image: url(https://tse3.explicit.bing.net/th?id=OIP.ag6Rn8EnBrQEQZEVeB3DUQHaDt&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.s7{
+        background-image: url(https://www.nrn.com/sites/nrn.com/files/styles/article_featured_retina/public/hapy_guests_at_restaurant.jpeg?itok=rt3cqz68);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 180px 0px 180px 0px;
+        min-height: 250px;
+    }
+    .s8{
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.KQWa_Nx85E6hweZFCavCKAHaFB&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        text-align: center;
+        
+    }
+    .s9{
+        background-image: url(https://tse1.mm.bing.net/th?id=OIP.QZay4Z1ghncmv6odQsj52QHaE8&pid=Api&P=0&h=180);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 100px 0px 100px 0px;
+        min-height: 150px;
+    }
+   
+.s10{
+    background-color: black;
+    min-height: 250px;
+    padding: 40px 0px 40px 0px;
+    /* text-align: center; */
+}
+a{
+    color: gray;
+}
+.s11{
+    background-color: rgb(54, 52, 52);
+    text-align: right;
+    padding-right: 50px;
+}
+.ib{
+    background-color: white;
+    border-radius: 50%;
+    width: 200px;
+}

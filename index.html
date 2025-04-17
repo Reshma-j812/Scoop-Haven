@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SCOOP HAVEN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #79adcb; */
+            background-image:url(iceee.avif) ;
+            background-size: cover;
+            /* background-position: center; */
+
+        }
+        .hero {
+            background: url('ice12.jpg') no-repeat center center/cover;
+            /* height: 70vh;
+            color: rgb(11, 3, 54);
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            height: 100vh; */
+            display: flex;
+            align-items: center; 
+            justify-content: flex-start; 
+            height: 100vh;
+            padding-left: 50px; 
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+
+            
+        }
+        .btn-green {
+            display: inline-block;
+            background-color: #1B3A5D;
+            color: white;
+            padding: 12px 24x;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            align-items: center;
+        }
+        .btn-green:hover {
+            background-color: #689f38;
+        }
+        .products, .testimonials, .contact {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .product-card, .testimonial-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .product-card img, .testimonial-card img {
+            width: 300px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background:#BBD3E8 ;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #f5f7f2;
+            text-decoration: none;
+        }
+        .custom-navbar{
+            background-color: #BBD3E8;
+        }
+        .product-card:hover {
+           transform: rotate(-3deg) scale(1.1);
+        }
+        .image {
+            flex: 1;
+            /* padding-left: 10px; */
+        }
+        .image img {
+          
+            height: auto;
+            border-radius: 10px;
+        }
+        .about{
+            display: flex;
+            align-items: center;
+          
+            margin: auto;
+            padding: 20px;
+        }
+        /* .text {
+            flex: 2;
+        }
+        h2 {
+            color: #c5b28a;
+            text-transform: uppercase;
+        } */
+        .social-media {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .social-media a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    .social-media img {
+        width: 40px;
+        height: 40px;
+    }
+    /* .carousel-item .card {
+    max-width: 600px;
+    margin: auto;
+    background-color: #82aadc;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+   } */
+   .carousel-item p {
+    font-size: 1.2rem;
+    color: #252976;
+    }
+    #contact{
+        color: #252976;
+    }
+    .social-media{
+        color: #252976;
+    }
+    .location{
+    border: 5px solid #2547b7; /* Muted Green */
+    background-color: hsl(60, 100%, 100%);
+    
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 70%;
+}
+.map-container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    /* border: 5px solid #5E8C61; /* Muted Green */
+    /* border-radius: 10px; */ 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+.map-h1 {
+    font-size: 3rem;
+    /* font-weight: bold; */
+    color: #252976;
+    text-align: center;
+    font-family: 'fantasy';
+}
+@media (max-width: 768px) {
+            .hero {
+                height: auto;
+                padding: 40px 20px;
+                text-align: center;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+
+      
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">SCOOP HAVEN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Our products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#review">Review</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="hero">
+        <div class="container animate__animated animate__fadeInUp ">
+        <h1>"Scoop, smile, repeat!"</h1>
+        <a href="#products" class="btn btn-green">ORDER NOW</a>
+    </div>
+    </header>
+ 
+    <section id="products" class="container products">
+        <h2 class="display-5 text-center mb-4">OUR PRODUCTS</h2>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src="pro7.jpg" alt="Ice Cream" class="img-fluid">
+                    <h4>Choco Bliss Duo</h4>
+                    <p>A smooth, creamy vanilla base topped with rich, drizzled chocolate.</p>
+                    <p class="price">$50</p>
+                    <a href="#products" class="btn btn-green">ORDER NOW</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src="pro4.jpg" alt="Sundae" class="img-fluid">
+                    <h4>Strawberry Bliss</h4>
+                    <p>A creamy, fruity delight bursting with fresh strawberry flavor.</p>
+                    <p class="price">$80</p>
+                    <a href="#products" class="btn btn-green">ORDER NOW</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src="pro8.jpg" alt="Milkshake" class="img-fluid">
+                    <h4>Nutty Crunch Delight</h4>
+                    <p>A creamy, nut-infused treat with a perfect crunch in every bite!</p>
+                    <p class="price">$60</p>
+                    <a href="#products" class="btn btn-green">ORDER NOW</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src="icecream1.jpg" alt="Ice Cream" class="img-fluid">
+                    <h4>Blueberry Dream</h4>
+                    <p>A rich, creamy blueberry delight bursting with fruity goodness!</p>
+                    <p class="price">$120</p>
+                    <a href="#products" class="btn btn-green">ORDER NOW</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src="icecream2.jpg" alt="Sundae" class="img-fluid">
+                    <h4>Blueberry Dream</h4>
+                    <p>A vibrant, blueberry-infused frozen treat bursting with fruity goodness.</p>
+                    <p class="price">$140</p>
+                    <a href="#products" class="btn btn-green">ORDER NOW</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src="icecream7.jpg" alt="Milkshake" class="img-fluid">
+                    <h4>Blueberry Bliss</h4>
+                    <p>A dreamy blueberry delight bursting with fruity freshness.</p>
+                    <p class="price">$200</p>
+                    <a href="#products" class="btn btn-green">ORDER NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-5" id="review">
+        <h2 class="text-center display-4" style="color:#1B3A5D">What Our Customers Say</h2>
+        <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card p-4 text-center shadow-lg">
+                        <p class="fw-bold">"I loved the variety of flavors! I tried the mango sorbet, and it was so refreshing. The staff was super friendly, and the place had a great vibe.""</p>
+                        <p>- John Doe ⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card p-4 text-center shadow-lg">
+                        <p class="fw-bold">"I'm a big fan of chocolate, and their dark chocolate fudge was the best I've ever had! Rich, creamy, and not overly sweet. I can't wait to come back!" "</p>
+                        <p>- Jane Smith ⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card p-4 text-center shadow-lg">
+                        <p class="fw-bold">"Great spot for a family treat! My kids loved the colorful sprinkles. The staff was patient while they made their choices, which I really appreciated."</p>
+                        <p>- Mark Lee ⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+    
+        </div>
+    </div>
+
+    <section class="location">
+        <div class="map-h1 " id="location">
+        <h1>"Locate Your Favorite Flavors!"</h1>
+        </div>
+        <div class="map-container">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.1320437963426!2d76.64883877514294!3d10.78673068935915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85c97d437b74b%3A0x3b5ae63284061f8!2sPalakkad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1710920000000" 
+            
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        
+        </div>
+    </section>
+
+    <section id="contact" class="container contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@scoophaven.com</p>
+        <p>Phone: +1 234 567 890</p>
+        <p>Address: 123 Ice Cream Street, Palakkad</p>
+    </section>
+    
+    <div class="social-media">
+        <h3>Follow Us</h3>
+        <a href="https://www.facebook.com/yourpage" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter">
+        </a>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Scoop Haven. All Rights Reserved.</p>
+        <p><a href="about.html">About Us</a> | <a href="menu.html">Menu</a> | <a href="contact.html">Contact</a></p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
